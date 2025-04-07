@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master SQL & PL/SQL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f0f4f8;
+            color: #222;
+            animation: fadeIn 1s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .banner {
+            background-color: #004080;
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            animation: slideIn 1s ease-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-100%); }
+            to { transform: translateY(0); }
+        }
+        .banner h1 {
+            font-size: 2.5em;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .banner h1 i {
+            font-size: 1.3em;
+            color: #ffcc00;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s ease-out;
+        }
+        @keyframes fadeInUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        h2 {
+            color: #0059b3;
+            border-bottom: 2px solid #cce0ff;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #006699;
+            margin-top: 1.5rem;
+        }
+        ul {
+            line-height: 1.8;
+            padding-left: 1.5rem;
+        }
+        li::marker {
+            color: #3399ff;
+        }
+        .features {
+            background-color: #e6f7ff;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+            border-left: 5px solid #00aaff;
+        }
+        .features h2 {
+            color: #007399;
+            margin-top: 0;
+        }
+        .features ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .features li {
+            margin: 0.5rem 0;
+        }
+        .features li i {
+            margin-right: 10px;
+            color: #00aaff;
+        }
+        .marquee {
+            margin-top: 3rem;
+            background-color: #ffcccc;
+            padding: 1rem;
+            font-weight: bold;
+            color: #b30000;
+            overflow: hidden;
+            white-space: nowrap;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .marquee-text {
+            display: inline-block;
+            animation: scrollText 10s linear infinite;
+        }
+        @keyframes scrollText {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1><i class="fas fa-database"></i> Master SQL & PL/SQL</h1>
+    </div>
+    <div class="container">
+        <h2>About the Course</h2>
+        <p>This course is designed to take you from the fundamentals of SQL to advanced PL/SQL programming. Whether you're a beginner or someone with basic knowledge looking to upskill, this course provides hands-on experience and practical assignments to master database programming.</p>
+
+        <h2>What You’ll Learn</h2>
+        <h3>SQL (Structured Query Language)</h3>
+        <ul>
+            <li>Introduction to RDBMS</li>
+            <li>Data Types & Constraints</li>
+            <li>SELECT Statements (Filtering, Sorting, Aggregation)</li>
+            <li>Joins (Inner, Left, Right, Full, Self Joins)</li>
+            <li>Subqueries (Simple & Correlated)</li>
+            <li>Set Operators: UNION, INTERSECT, MINUS</li>
+            <li>Views, Indexes, and Materialized Views</li>
+            <li>Common Table Expressions (CTEs)</li>
+            <li>Window Functions (RANK, ROW_NUMBER, LEAD, etc.)</li>
+            <li>Working with Dates & String Functions</li>
+            <li>Performance Tuning Basics</li>
+        </ul>
+
+        <h3>PL/SQL (Procedural Language for SQL)</h3>
+        <ul>
+            <li>PL/SQL Block Structure</li>
+            <li>Variables, Data Types, and Control Structures</li>
+            <li>Loops, Conditions, and Exception Handling</li>
+            <li>Cursors (Implicit & Explicit)</li>
+            <li>Stored Procedures & Functions</li>
+            <li>Packages and Modular Programming</li>
+            <li>Triggers and Events</li>
+        </ul>
+
+        <div class="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li><i class="fas fa-calendar-week"></i>Weekend-Only Classes</li>
+                <li><i class="fas fa-laptop-code"></i>Live Hands-on Practice</li>
+                <li><i class="fas fa-clipboard-list"></i>Realistic Use Cases & Assignments</li>
+                <li><i class="fas fa-certificate"></i>E-Certificate Upon Completion</li>
+                <li><i class="fas fa-chart-line"></i>Affordable and Career-Focused Learning</li>
+            </ul>
+        </div>
+
+        <div class="marquee">
+            <div class="marquee-text">🔥 Hurry Up! Limited Seats Available – Enroll Now to Level Up Your SQL & PL/SQL Skills! 🔥</div>
+        </div>
+    </div>
+</body>
+</html>
